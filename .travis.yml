@@ -22,7 +22,5 @@ after_success:
   - docker push aminux/fib-worker
   - docker push aminux/fib-nginx
 
-on:
-  branch: main
 
 
